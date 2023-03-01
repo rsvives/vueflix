@@ -44,8 +44,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   padding: 64px;
-  color: #2c3e50;
+  color: #7e8b99;
   /* margin-top: 60px; */
+  background-color: #2c3e50;
+  background-color: #2a323a;
+}
+
+h1 {
+  color: #bac2ca;
 }
 
 img {

@@ -41,8 +41,9 @@ export default {
     flex-direction: column;
     padding: 12px 16px;
     background-color: white;
+    background-color: #3a444e;
     border-radius: 12px;
-    /* border: 1px solid #2c3e50; */
+    border: 1px solid #26292d;
     filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
     z-index: 1;
 
@@ -70,6 +71,13 @@ export default {
     gap: 12px;
 }
 
+
+h3,
+h5,
+span {
+    color: #bac2ca;
+}
+
 .countries {
     display: flex;
     gap: 8px;
@@ -78,7 +86,7 @@ export default {
 .year {
     font-size: 14px;
     font-weight: 600;
-    color: #535f6a;
+    color: #7f8c97;
 }
 
 .score {
@@ -102,7 +110,9 @@ p.plot {
     display: flex;
     padding: 4px 12px;
     border-radius: 20px;
-    background-color: rgb(225, 225, 225);
+    background-color: #4e575e;
+    color: #a9aeb4;
+    font-weight: 500;
 }
 
 .cast::marker {
