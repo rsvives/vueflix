@@ -1,6 +1,5 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <img alt="Vue logo" src="./assets/logo.png">
   <h1>My movies</h1>
   <ol class="movies-container">
     <MovieCard v-for="(m, index) in movies" :key="index" :movie="m" />
@@ -47,6 +46,10 @@ export default {
   padding: 64px;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+
+img {
+  width: 80px;
 }
 
 .movies-container {
