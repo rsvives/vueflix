@@ -1,4 +1,4 @@
-# VUEFLIX 📺
+# 📺 VUEFLIX & CHILL
 
 ## Project setup
 
